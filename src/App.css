@@ -14,13 +14,16 @@
 }
 
 ul {
+  list-style: none;
   display: flex;
   flex-direction: row;
-  list-style: none;
+  justify-content: center;
+  
 }
 
 a{
-  padding-left: .8em;
+  font-size: 2rem;
+  padding: .5em;
 }
 
 #tweet-quote{  
@@ -29,6 +32,7 @@ a{
 
 #new-quote{
   padding: 5px 10px;
+  font-weight: 400;
 }
 
 #author{
@@ -41,4 +45,5 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 35px;
 }
