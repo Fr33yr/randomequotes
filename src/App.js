@@ -5,38 +5,38 @@ export function App() {
 
   const quotes = [
     {   id:1,
-        text:'some randome text', 
-        author: 'author name'
+        text:'Nothing is too wonderful to be true if it be consistent with the laws of nature.', 
+        author: 'Michael Faraday'
     },
     {
         id:2,
-        text: 'blueeeee',
-        author: 'blue'
+        text: 'Innovation distinguishes between a leader and a follower.',
+        author: 'Steve Jobs'
     },
     {
         id:3,
-        text: 'reeeeed',
-        author: 'red'
+        text: 'The highest activity a human being can attain is learning for understanding, because to understand is to be free.',
+        author: 'Baruch Spinoza'
     },
     {
         id:4,
-        text: 'yelloooow',
-        author: 'yellow'
+        text: 'Success is a lousy teacher. It seduces smart people into thinking they can’t lose.',
+        author: 'Bill Gates'
     },
     {
         id:5,
-        text: 'greeen',
-        author: 'green'
+        text: 'The world breaks everyone and afterward many are strong at the broken places.',
+        author: 'Ernest Hemingway'
     },
     {
         id:6,
-        text: 'greeeeey',
-        author: 'grey'
+        text: 'We cannot solve our problems with the same thinking we used when we created them.',
+        author: 'Albert Einstein'
     },
     {
         id:7,
-        text: 'piiiink',
-        author: 'pink'
+        text: 'We must believe that we are gifted for something and that this thing must be attained.',
+        author: 'Marie Curie'
     }];
   
 
@@ -47,7 +47,6 @@ export function App() {
   const handleClick = () => {
     const randomNumber = Math.floor(Math.random() * (quotes.length));
     setQindex(randomNumber);
-    console.log(randomNumber);
   }
 
 
