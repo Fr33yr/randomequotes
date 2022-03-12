@@ -1,9 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
+body{
+  background: coral;
+}
+
 #quote-box{
-  padding-top: 30vh;
+  background: wheat;
   margin: 0 auto;
   width: 550px;
   height: 220px;
@@ -11,7 +21,9 @@
 
 #text{
   padding-left: 25px;
+  padding-top: 1em;
 }
+
 
 ul {
   list-style: none;
