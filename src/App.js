@@ -41,8 +41,8 @@ export function App() {
   
 
 
-  const fstrng = Math.floor(Math.random() * (quotes.length))
-  const [qIndex, setQindex] = useState(fstrng)
+  const defaultRandom = Math.floor(Math.random() * (quotes.length))
+  const [qIndex, setQindex] = useState(defaultRandom)
 
   const handleClick = () => {
     const randomNumber = Math.floor(Math.random() * (quotes.length));
@@ -56,13 +56,13 @@ export function App() {
 
       <div id='quote-box'>
         <h2 id='text'>
-          {quotes[qIndex].text}
+          "{quotes[qIndex].text}
         </h2>
         <p id='author'>- {quotes[qIndex].author}</p>
         <div className='buttons'>
           <ul>
-            <li><a id='tweet-quote' href='#'><i className="fa-brands fa-twitter-square"></i></a></li>
-            <li><a id='tweet-quote' href='#'><i className="fa-brands fa-instagram-square"></i></a></li>
+            <li><a id='tweet-quote' target="_blank" href='https://www.twitter.com/intent/tweet'><i className="fa-brands fa-twitter-square"></i></a></li>
+            <li><a id='tweet-quote' target="_blank" href='https://www.instagram.com/?hl=es-la'><i className="fa-brands fa-instagram-square"></i></a></li>
           </ul>
           <button id='new-quote' onClick={handleClick}>New quote</button>
         </div>

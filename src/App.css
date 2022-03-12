@@ -9,17 +9,18 @@
 }
 
 body{
-  background: coral;
+  background: #0F4D92;
 }
 
 #quote-box{
-  background: wheat;
+  background: #E3D7FF;
   margin: 0 auto;
   width: 550px;
   height: 220px;
 }
 
 #text{
+  color: #639FAB;
   padding-left: 25px;
   padding-top: 1em;
 }
@@ -36,6 +37,7 @@ ul {
 a{
   font-size: 2rem;
   padding: .5em;
+  color: #639FAB;
 }
 
 #tweet-quote{  
@@ -43,11 +45,16 @@ a{
 }
 
 #new-quote{
+  background: #639FAB;
+  color: #F0EDEE;
+  border: none;
+  border-radius: 2px;
   padding: 5px 10px;
   font-weight: 400;
 }
 
 #author{
+  color: #639FAB;
   display: flex;
   flex-direction: row-reverse;
   margin-right: 90px;
