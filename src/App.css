@@ -14,7 +14,7 @@ body{
 
 #quote-box{
   background: #E3D7FF;
-  margin: 0 auto;
+  margin: 25vh auto 0 auto;
   width: 550px;
   height: 220px;
 }
