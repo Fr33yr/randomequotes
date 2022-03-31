@@ -67,6 +67,7 @@ export function App() {
         </div>
       </div>
 
+      <footer><a href='https://github.com/Fr33yr/randomequotes' target={"_blank"} rel={"noreferrer react"}>Code</a></footer>
     </Fragment>
   )
 }

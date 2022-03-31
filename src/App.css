@@ -67,3 +67,14 @@ a{
   justify-content: space-around;
   height: 35px;
 }
+
+footer{
+  margin-top: 28vh;
+  text-align: center;
+}
+
+footer a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
